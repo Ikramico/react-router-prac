@@ -11,7 +11,7 @@ function App() {
       <p className="text-white">This is a practice React Router Project with in depth Router Usage</p>
       <Home/>
     </div>
-    
+    <Outlet/>
     
         
     </>
