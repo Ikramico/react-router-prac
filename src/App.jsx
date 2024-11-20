@@ -1,6 +1,7 @@
 
-import './App.css'
-import Home from './components/home'
+import { Outlet } from 'react-router-dom';
+import './App.css';
+import Home from './components/home';
 
 function App() {
 
@@ -10,6 +11,8 @@ function App() {
       <p className="text-white">This is a practice React Router Project with in depth Router Usage</p>
       <Home/>
     </div>
+    
+    
         
     </>
   )
