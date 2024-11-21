@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
             <button className="bg-teal-500 p-5">Go to
                 <Link to='/products' >Products</Link>
             </button>
-            
+            <Outlet/>
         </div>
     );
 };
